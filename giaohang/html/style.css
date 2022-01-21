@@ -1,0 +1,69 @@
+#main {
+	display: none;
+	border-style: solid;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	padding: 1vw 0vw 1vw 1vw;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 1vw;
+	overflow: auto;
+}
+
+.box-veh {
+	float: left;
+	border-style: solid;
+	width: 44%;
+	height: 45%;
+	border-radius: 0.5vw;
+	margin: 1%;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-header {
+	text-align: center;
+	font-family: Arial;
+	font-weight: 700;
+	font-size: 150%
+}
+.veh-img {
+	border-style: solid;
+    border-radius: 0.5vw;
+    height: 70%;
+   	background-size: 100% 100%;
+}
+
+
+
+.veh-bt {
+	position: relative;
+	background-color: rgba(0, 255, 0, 0.7);
+	transform: translateX(-50%);
+    border-style: solid;
+    border-color: black;
+	border-radius: 1vw;
+	width: 80%;
+	height: 15%;
+	top: 1vh;
+	left: 50%;
+	text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+ 
+}
+
+.veh-bt:hover {
+	background-color: rgba(0, 0, 0, 1.0);
+    color: white;
+}
+
+::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: rgba(0,0,0,0.0);
+}
+
